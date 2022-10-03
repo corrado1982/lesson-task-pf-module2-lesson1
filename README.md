@@ -10,7 +10,7 @@ Use a JavaScript string method to determine whether these strings are equal rega
 var requiredName = "Gertrude";
 var suppliedName = "GERTRUDE";
 
-if (requiredName.toLowerCase === suppliedName.toLowerCase){
+if (requiredName.toLowerCase() === suppliedName.toLowerCase()){
     console.log("name match")
 }
 
